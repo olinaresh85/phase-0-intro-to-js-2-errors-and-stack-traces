@@ -1,6 +1,6 @@
 // Fix the error in the snackSelection code snippet first
 
-const snackSelection = 'Pretzels';
+let snackSelection = 'Pretzels';
 
 if (snackSelection = 'Pretzels') {
   console.log("That'll be $1, please!");
@@ -17,4 +17,8 @@ function second () {
   third();
 }
 
-first();
+function third() {
+  console.log("Now Iam a function");  
+}
+
+second();
